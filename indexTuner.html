@@ -1,0 +1,72 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="scriptTuner.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Bangers|Chewy" rel="stylesheet">
+<link rel="stylesheet" href="styleTuner.css">
+<title>Guitar Tuner</title>
+</head>
+
+<body>
+<div class="field">
+	<div class="guitarSpace">
+	<div class="neck"></div>
+		<div class="strings">
+			<div class="eString" onclick="eAudio()">
+				<p>E</p>
+			</div>
+			<div class="aString" onclick="aAudio()">
+				<p>A</p>
+			</div>
+			<div class="dString" onclick="dAudio()">
+				<p>D</p>
+			</div>
+			<div class="gString" onclick="gAudio()">
+				<p>G</p>
+			</div>
+			<div class="bString" onclick="bAudio()">
+				<p>B</p>
+			</div>
+			<div class="stringE" onclick="stringEaudio()">
+				<p>E</p>
+			</div>
+		</div>
+		<div class="strings2">
+			<div class="eStop" onclick="eStop1()"></div>
+			<div class="aStop" onclick="aStop1()"></div>
+			<div class="dStop" onclick="dStop1()"></div>
+			<div class="gStop" onclick="gStop1()"></div>
+			<div class="bStop" onclick="bStop1()"></div>
+			<div class="eEstop" onclick="eEstop()"></div>
+		</div>
+		<audio id="audio1">
+			<source src="eTuner.mp3" type="audio/mp3">
+		</audio>
+		<audio id="audio2">
+			<source src="aTuner.mp3" type="audio/mp3">
+		</audio>
+		<audio id="audio3">
+			<source src="dTuner.mp3" type="audio/mp3">
+		</audio>
+		<audio id="audio4">
+			<source src="gTuner.mp3" type="audio/mp3">
+		</audio>
+		<audio id="audio5">
+			<source src="bTuner.mp3" type="audio/mp3">
+		</audio>
+		<audio id="audio6">
+			<source src="eETuner.mp3" type="audio/mp3">
+		</audio>
+	</div>
+	<div class="lennon"></div>
+	<div class="lennonHand"></div>
+	<div class="arloField">
+		<div class="info">
+			<div class="titleContainer">
+			<h1>GUITAR TUNER</h1>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

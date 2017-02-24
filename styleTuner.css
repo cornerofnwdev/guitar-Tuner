@@ -1,0 +1,182 @@
+.field{
+	width: 100%;
+	height: 1900px;
+	background-image: url(backgroundLennon.jpg);
+	position: relative;
+	display: inline-block;
+}
+.arloField{
+	width: 100%;
+	height: 600px;
+	background-image: url(backgroundArlo2.jpg);
+	position: relative;
+	top: -1280px;
+	left: -10px;
+	border: 10px solid black;
+}
+.guitarSpace{
+	width: 420px;
+	height: 870px;
+	background-color: #DAA520;
+	left: 445px;
+	top: 50px;
+	position: relative;
+	border: 8px solid black;
+	border-radius: 25px;
+}
+.eString, .eStop{
+	width: 40px;
+	height: 40px;
+	top: 7px;
+	left: 2px;
+	background-color: white;
+	border-radius: 100px;
+	position: relative;
+	text-align: center;
+	border: 3px solid #8B4513;
+	font-family: 'Bangers', cursive;
+	font-size: 18px;
+}
+.aString, .aStop{
+	width: 40px;
+	height: 40px;
+	top: -38px;
+	left: 60px;
+	background-color: white;
+	border-radius: 100px;
+	position: relative;
+	border: 3px solid #8B4513;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 18px;
+}
+.dString, .dStop{
+	width: 40px;
+	height: 40px;
+	top: -84px;
+	left: 120px;
+	background-color: white;
+	border-radius: 100px;
+	position: relative;
+	border: 3px solid #8B4513;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 18px;
+}
+.gString, .gStop{
+	width: 40px;
+	height: 40px;
+	top: -130px;
+	left: 185px;
+	background-color: white;
+	border-radius: 100px;
+	position: relative;
+	border: 3px solid #8B4513;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 18px;
+}
+.bString, .bStop{
+	width: 40px;
+	height: 40px;
+	top: -177px;
+	left: 248px;
+	background-color: white;
+	border-radius: 100px;
+	position: relative;
+	border: 3px solid #8B4513;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 18px;
+}
+.stringE, .eEstop{
+	width: 40px;
+	height: 40px;
+	top: -223px;
+	left: 307px;
+	background-color: white;
+	border-radius: 100px;
+	position: relative;
+	border: 3px solid #8B4513;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 19px;
+}
+.lennonHand{
+	left: 570px;
+	top: -1150px;
+	width: 181px;
+	height: 600px;
+	background-image: url(lennonHand2.jpg);
+	position: relative;
+}
+.lennon{
+	left: -150px;
+	top: -650px;
+	height: 1200px;
+	width: 581px;
+	background-image: url(lennon2.jpg);
+	position: relative;
+}
+.neck{
+	position: relative;
+	top: 20px;
+	left: 47px;
+	height: 650px;
+	width: 320px;
+	background-image: url(neck.jpg);
+	background-color: black;
+	border: 10px solid black;
+	border-radius: 25px;
+	overflow: hidden;
+}
+.strings{
+	width: 365px;
+	height: 60px;
+	background-color: black;
+	left: 30px;
+	top: 40px;
+	position: relative;
+	border: 2px solid #8B4513;
+	border-radius: 15px;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.strings2{
+	width: 365px;
+	height: 60px;
+	background-color: black;
+	left: 30px;
+	top: 55px;
+	position: relative;
+	border: 2px solid #8B4513;
+	border-radius: 15px;
+}
+.titleContainer{
+	width: 740px;
+	height: 350px;
+	border: 7px solid black;
+	text-align: center;
+	left: 65px;
+	margin-left: 10px;
+	margin-top: -25px;
+	position: relative;
+	border-radius: 50px;
+	background-color: #008B8B;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+h1{
+	top: -75px;
+	position: relative;
+}
+.info{
+	top: 50px;
+	left: 40px;
+	height: 300px;
+	width: 900px;
+	position: relative;
+	font-size: 75px;
+	font-family: "Bangers", cursive;
+	color: white;
+}
